@@ -1,6 +1,6 @@
 {
   "name": "Optimizador de Corte de Vidrio",
-  "description": "Una herramienta web para calcular la disposición óptima de los cortes en paneles de vidrio, minimizando el desperdicio. Los usuarios pueden definir las dimensiones del panel principal y una lista de piezas a cortar para visualizar el plano de corte más eficiente.",
+  "description": "Herramienta avanzada para la optimización de cortes de vidrio (paneles) y perfiles de aluminio o PVC (lineal). Calcula la disposición más eficiente para minimizar desperdicios, con soporte para múltiples perfiles y visualización interactiva.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }
