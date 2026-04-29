@@ -13,7 +13,8 @@ interface LinearInputPanelProps {
 const LinearInputPanel: React.FC<LinearInputPanelProps> = ({ onOptimize, onClear, isLoading }) => {
   const [inventory, setInventory] = useState<StockBar[]>([
     { id: 'stock-1', profile: 'Marco 3"', length: 6000, quantity: 10 },
-    { id: 'stock-2', profile: 'Hoja 3"', length: 6000, quantity: 10 }
+    { id: 'stock-2', profile: 'Hoja 3"', length: 6000, quantity: 10 },
+    { id: 'stock-3', profile: 'Riel 3"', length: 6000, quantity: 5 }
   ]);
   const [cutList, setCutList] = useState<CutBarPiece[]>([
     { id: 'cut-1', profile: 'Marco 3"', label: 'Cabezal Sup', length: 1500, quantity: 1 },
@@ -21,6 +22,8 @@ const LinearInputPanel: React.FC<LinearInputPanelProps> = ({ onOptimize, onClear
     { id: 'cut-3', profile: 'Marco 3"', label: 'Jamba Lat', length: 1200, quantity: 2 },
     { id: 'cut-4', profile: 'Hoja 3"', label: 'Cab.+Zoc Hoja', length: 730, quantity: 4 },
     { id: 'cut-5', profile: 'Hoja 3"', label: 'Cerc.+Trasl.', length: 1140, quantity: 4 },
+    { id: 'cut-6', profile: 'Riel 3"', label: 'Riel Superior', length: 1500, quantity: 1 },
+    { id: 'cut-7', profile: 'Riel 3"', label: 'Riel Inferior', length: 1500, quantity: 1 },
   ]);
   const [kerf, setKerf] = useState<number>(4);
 

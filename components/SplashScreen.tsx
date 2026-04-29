@@ -25,7 +25,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           position: relative;
           font-family: 'Inter', sans-serif;
           font-size: 3rem;
-          color: #fff;
+          color: #00f3ff;
           text-transform: lowercase;
           font-weight: 900;
           opacity: 0;
@@ -39,7 +39,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           display: inline-block;
           width: 50px;
           height: 50px;
-          border: 3px solid #fff;
+          border: 3px solid #00f3ff;
           border-radius: 50%;
           position: relative;
           border-style: dashed; 
@@ -52,7 +52,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           left: -40%;
           width: 180%;
           height: 3px;
-          background: #fff;
+          background: #00f3ff;
           transform: translateY(-50%);
         }
 
@@ -71,7 +71,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
             transform: scale(0.8);
             text-shadow: none;
             color: transparent;
-            -webkit-text-stroke: 1px #fff; 
+            -webkit-text-stroke: 1px #00f3ff; 
           }
           35% {
             opacity: 0.8;
@@ -79,7 +79,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           }
           37% {
             opacity: 1;
-            color: #fff;
+            color: #00f3ff;
             -webkit-text-stroke: 0;
             transform: scale(0.85) skewX(10deg);
             text-shadow: -2px 0 rgba(255,0,0,0.5), 2px 0 rgba(0,0,255,0.5);
@@ -95,7 +95,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           }
           55% {
             transform: scale(0.85) skewX(0deg);
-            text-shadow: 0 0 10px #fff;
+            text-shadow: 0 0 10px #00f3ff;
             filter: brightness(1);
           }
           60% {
